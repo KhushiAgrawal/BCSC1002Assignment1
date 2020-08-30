@@ -19,7 +19,7 @@ public class Student {
         studentName = "Sushant Singh Rajput";
         universityRollNumber = 191500396;
         numberOfIssuedBooks = 3;
-        this.namesOfBooksIssued = new Book[10];
+        this.namesOfBooksIssued = new Book[5];
         for (int i = 0; i < namesOfBooksIssued.length; i++) {
             namesOfBooksIssued[i] = new Book();
         }

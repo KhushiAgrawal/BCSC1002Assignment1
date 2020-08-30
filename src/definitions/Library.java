@@ -9,6 +9,17 @@ package definitions;
 public class Library {
     private Book[] availableBooks;
 
+    public Library() {
+        this.availableBooks = new Book[10];
+        for (int i = 0; i < availableBooks.length; i++) {
+            availableBooks[i] = new Book();
+        }
+    }
+
+    public Library(Book[] availableBooks) {
+        this.availableBooks = availableBooks;
+    }
+
     public Book[] getAvailableBooks() {
         return availableBooks.clone();
     }
