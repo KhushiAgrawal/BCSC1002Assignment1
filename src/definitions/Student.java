@@ -10,6 +10,7 @@ public class Student {
     private String studentName;
     private long universityRollNumber;
     private int numberOfIssuedBooks;
+    private Book[] namesOfBooksIssued;
 
 
 }
