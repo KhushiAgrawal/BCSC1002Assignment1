@@ -8,6 +8,7 @@ package definitions;
 
 public class Student {
     private String studentName;
+    private long universityRollNumber;
 
 
 }
