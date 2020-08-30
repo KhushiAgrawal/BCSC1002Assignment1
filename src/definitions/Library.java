@@ -67,5 +67,14 @@ public class Library {
         System.out.println("Thank you for issuing" + name + ".");
     }
 
+    /**
+     * This method returns a book to the Library Book Inventory System.
+     *
+     * @param name The name of the book you want to return.
+     */
+    public void doReturn(String name) {
+        System.out.println("Thank ypu for returning" + name + ".");
+    }
+
 
 }
