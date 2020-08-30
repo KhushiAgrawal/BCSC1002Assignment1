@@ -12,5 +12,35 @@ public class Student {
     private int numberOfIssuedBooks;
     private Book[] namesOfBooksIssued;
 
+    public String getStudentName() {
+        return studentName;
+    }
 
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public long getUniversityRollNumber() {
+        return universityRollNumber;
+    }
+
+    public void setUniversityRollNumber(long universityRollNumber) {
+        this.universityRollNumber = universityRollNumber;
+    }
+
+    public int getNumberOfIssuedBooks() {
+        return numberOfIssuedBooks;
+    }
+
+    public void setNumberOfIssuedBooks(int numberOfIssuedBooks) {
+        this.numberOfIssuedBooks = numberOfIssuedBooks;
+    }
+
+    public Book[] getNamesOfBooksIssued() {
+        return namesOfBooksIssued.clone();
+    }
+
+    public void setNamesOfBooksIssued(Book[] namesOfBooksIssued) {
+        this.namesOfBooksIssued = namesOfBooksIssued;
+    }
 }
