@@ -42,4 +42,9 @@ public class Library {
     public int hashCode() {
         return Arrays.hashCode(getAvailableBooks());
     }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(availableBooks);
+    }
 }
