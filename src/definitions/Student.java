@@ -12,6 +12,24 @@ public class Student {
     private int numberOfIssuedBooks;
     private Book[] namesOfBooksIssued;
 
+    public Student() {
+        studentName = "Sushant Singh Rajput";
+        universityRollNumber = 191500396;
+        numberOfIssuedBooks = 3;
+        this.namesOfBooksIssued = new Book[10];
+        for (int i = 0; i < namesOfBooksIssued.length; i++) {
+            namesOfBooksIssued[i] = new Book();
+        }
+    }
+
+    public Student(String studentName, long universityRollNumber, int numberOfIssuedBooks, Book[] namesOfBooksIssued) {
+        this.studentName = studentName;
+        this.universityRollNumber = universityRollNumber;
+        this.numberOfIssuedBooks = numberOfIssuedBooks;
+        this.namesOfBooksIssued = namesOfBooksIssued;
+    }
+
+
     public String getStudentName() {
         return studentName;
     }
