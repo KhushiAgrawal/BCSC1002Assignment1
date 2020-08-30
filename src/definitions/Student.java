@@ -82,5 +82,13 @@ public class Student {
         return result;
     }
 
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentName='" + studentName + '\'' +
+                ", universityRollNumber=" + universityRollNumber +
+                ", numberOfIssuedBooks=" + numberOfIssuedBooks +
+                ", namesOfBooksIssued=" + Arrays.toString(namesOfBooksIssued) +
+                '}';
+    }
 }
