@@ -6,12 +6,12 @@
  * */
 package execution;
 
-import definitions.Book;
+import definitions.Library;
 
 public class FrontDesk {
     public static void main(String[] args) {
-        Book book = new Book();
-        System.out.println(book);
+        Library myBook = new Library();
+        myBook.addBook("life of a pie");
 
 
     }

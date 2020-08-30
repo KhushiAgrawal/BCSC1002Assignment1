@@ -55,6 +55,17 @@ public class Library {
      */
 
     public void addBook(String name) {
-        System.out.println(name + "was added to the Inventory");
+        System.out.println(name + " was added to the Inventory");
     }
+
+    /**
+     * This method helps us to issue a Book.
+     *
+     * @param name The name of the book you want to issue.
+     */
+    public void doCheckOut(String name) {
+        System.out.println("Thank you for issuing" + name + ".");
+    }
+
+
 }
