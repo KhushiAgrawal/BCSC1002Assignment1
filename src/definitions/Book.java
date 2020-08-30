@@ -12,6 +12,13 @@ public class Book {
     private String authorName;
     private String bookISBNNumber;
 
+    public Book() {
+        bookName = "The Adventure";
+        authorName = "Arthur Conan Doyle";
+        bookISBNNumber = "1234567891234";
+    }
+
+
     public String getBookName() {
         return bookName;
     }
