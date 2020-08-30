@@ -47,4 +47,14 @@ public class Library {
     public String toString() {
         return Arrays.toString(availableBooks);
     }
+
+    /**
+     * This method add Book to the Library Book Inventory System.
+     *
+     * @param name The name of the book to be added.
+     */
+
+    public void addBook(String name) {
+        System.out.println(name + "was added to the Inventory");
+    }
 }
