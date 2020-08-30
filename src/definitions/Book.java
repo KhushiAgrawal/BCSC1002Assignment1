@@ -12,5 +12,9 @@ public class Book {
     private String authorName;
     private String bookISBNNumber;
 
+    public String getBookName() {
+        return bookName;
+    }
+
 
 }
