@@ -31,4 +31,8 @@ public class Book {
     public String getBookISBNNumber() {
         return bookISBNNumber;
     }
+
+    public void setBookISBNNumber(String bookISBNNumber) {
+        this.bookISBNNumber = bookISBNNumber;
+    }
 }
